@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;   
+}
+a:hover{
+    color: black;
+}
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+    border-radius: 50%;
+}
+ 
+section{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px; 
+    
+}
+
+.links{
+    background-color: rgb(82, 128, 251);
+    padding: 20px;
+    transition: 0.2s ease-in;
+    border: 2px solid rgb(82, 128, 251);
+
+}
+.links:hover{
+    background-color: transparent;
+    color: rgb(82, 128, 251);
+    
+}
+.sub-head{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.heading{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(82, 128, 251);
+}
+.links-section{
+    margin-top: 50px;
+}
+.link-list{
+    margin: 20px 0px;
+    color: rgb(82, 128, 251);
+}
+
+
+
+@media screen and (max-width: 720px){
+    section{
+        width: 100%;
+    }
+}
+.social-links{
+    margin: 8%;
+    margin-top: 100px;
+}
+.social-links a{
+    font-size: 30px;
+    color: var(--secondary--color)
+    var(--parimary--color);
+    margin-right: 20px;
+}
+.social-links p{
+    margin-top: 40%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+    
+
+
+.social-links a:hover{
+    color: rgb(50, 50, 252);
+    
+}
+.youtube-video{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.youtube-video iframe{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.youtube-video p{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
