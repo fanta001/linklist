@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 
 a{
@@ -30,27 +31,27 @@ section{
 }
 
 .links{
-    background-color: rgb(82, 128, 251);
+    background-color: #ff9674;
     padding: 20px;
     transition: 0.2s ease-in;
-    border: 2px solid rgb(82, 128, 251);
+    border: 2px solid #fdad92;
 
 }
 .links:hover{
     background-color: transparent;
-    color: rgb(82, 128, 251);
+    color: #fd845c;
     
 }
 .sub-head{
     font-size: 17px;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+    background-color: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);;
 }
 .heading{
     font-size: 20px;
     margin-top: 20px;
-    color: rgb(82, 128, 251);
+    color: #ff855d;
 }
 .links-section{
     margin-top: 50px;
@@ -78,7 +79,7 @@ section{
     margin-right: 20px;
 }
 .social-links p{
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 20px;
     font-size: 20px;
     margin-right: 20px;
@@ -87,7 +88,7 @@ section{
 
 
 .social-links a:hover{
-    color: rgb(50, 50, 252);
+    color: rgb(248, 139, 139);
     
 }
 .youtube-video{
